@@ -1,7 +1,7 @@
 package com.valdir.helpdesk.domain.enums;
 
 public enum Status {
-	ABERTO(0, "ABERTO"), ANDAMENTO(0, "ANDAMENTO"), ENCERRADO(0, "ENCERRADO");
+ABERTO (0, "ABERTO"), ANDAMENTO(0, "ANDAMENTO"), ENCERRADO(0, "ENCERRADO");
 	
 	private Integer codigo;
 	private String descricao;
@@ -25,7 +25,7 @@ public static Status toEnum(Integer cod) {
 			return x;
 		}
 	}
-throw new IllegalArgumentException("Perfil Inválido");
+throw new IllegalArgumentException("Status Inválido");
 
 }
 }
