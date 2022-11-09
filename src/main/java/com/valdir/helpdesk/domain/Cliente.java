@@ -5,6 +5,8 @@ import java.util.List;
 
 import javax.persistence.Entity;
 import javax.persistence.OneToMany;
+
+import com.valdir.helpdesk.domain.enums.Perfil;
 @Entity
 public class Cliente extends Pessoa {
 
@@ -15,6 +17,7 @@ private List<Chamado> chamados = new ArrayList<>();
 
 public Cliente() {
 	super();
+	addPerfil(Perfil.CLIENTE);
 }
 
 public Cliente(Integer id, String nome, String cpf, String email, String senha) {
