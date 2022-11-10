@@ -1,5 +1,6 @@
 package com.valdir.helpdesk.services;
 
+import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,5 +22,16 @@ public class TecnicoService {
 		
 		return obj.orElseThrow(()-> new ObjectnotFoundException("Objeto não encontrado:" + id));
 	}
+
+
+
+
+
+	public List<Tecnico> findAll() {
+		// TODO Auto-generated method stub
+		return repository.findAll();
+	}
+
+
 	
 }
