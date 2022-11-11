@@ -6,24 +6,30 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.stream.Collectors;
 
+import javax.validation.constraints.NotNull;
+
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.valdir.helpdesk.domain.Tecnico;
 import com.valdir.helpdesk.domain.enums.Perfil;
 
 public class TecnicoDTO implements Serializable {
-	
+
 	private static final long serialVersionUID = 1L;
-	
+
 	protected Integer id;
+	@NotNull(message = "Campo nome obrigatorio")
 	protected String nome;
+	@NotNull(message = "Campo CPF obrigatorio")
 	protected String cpf;
+	@NotNull(message = "Campo email obrigatorio")
 	protected String email;
+	@NotNull(message = "Campo senha obrigatorio")
 	protected String senha;
-	
+
 	protected Set<Integer> perfis = new HashSet<>();
-	
+
 	@JsonFormat(pattern = "dd/MM/yyyy")
-	
+
 	protected LocalDate dataCriacao = LocalDate.now();
 
 	public TecnicoDTO() {
@@ -83,7 +89,7 @@ public class TecnicoDTO implements Serializable {
 	}
 
 	public Set<Perfil> getPerfis() {
-		return perfis.stream().map(x->Perfil.toEnum(x)).collect(Collectors.toSet());
+		return perfis.stream().map(x -> Perfil.toEnum(x)).collect(Collectors.toSet());
 	}
 
 	public void addPerfil(Perfil perfil) {
@@ -97,7 +103,5 @@ public class TecnicoDTO implements Serializable {
 	public void setDataCriacao(LocalDate dataCriacao) {
 		this.dataCriacao = dataCriacao;
 	}
-
-
 
 }
