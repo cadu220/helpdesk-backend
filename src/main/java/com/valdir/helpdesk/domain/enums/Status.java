@@ -1,7 +1,7 @@
 package com.valdir.helpdesk.domain.enums;
 
 public enum Status {
-ABERTO (0, "ABERTO"), ANDAMENTO(0, "ANDAMENTO"), ENCERRADO(0, "ENCERRADO");
+ABERTO (0, "ABERTO"), ANDAMENTO(1, "ANDAMENTO"), ENCERRADO(2, "ENCERRADO");
 	
 	private Integer codigo;
 	private String descricao;
