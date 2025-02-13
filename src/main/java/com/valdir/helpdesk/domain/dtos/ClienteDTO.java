@@ -1,4 +1,4 @@
-package com.valdir.helpdesk.domain.dtos;
+package com.cadu.helpdesk.domain.dtos;
 
 import java.io.Serializable;
 import java.time.LocalDate;
@@ -9,8 +9,8 @@ import java.util.stream.Collectors;
 import javax.validation.constraints.NotNull;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.valdir.helpdesk.domain.Cliente;
-import com.valdir.helpdesk.domain.enums.Perfil;
+import com.cadu.helpdesk.domain.Cliente;
+import com.cadu.helpdesk.domain.enums.Perfil;
 
 public class ClienteDTO implements Serializable {
 

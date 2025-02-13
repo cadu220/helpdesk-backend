@@ -1,4 +1,4 @@
-package com.valdir.helpdesk.services;
+package com.cadu.helpdesk.services;
 
 import java.util.Optional;
 
@@ -8,9 +8,9 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.valdir.helpdesk.domain.Pessoa;
-import com.valdir.helpdesk.repositories.PessoaRepository;
-import com.valdir.helpdesk.security.UserSS;
+import com.cadu.helpdesk.domain.Pessoa;
+import com.cadu.helpdesk.repositories.PessoaRepository;
+import com.cadu.helpdesk.security.UserSS;
 
 @Service
 public class UserDetailServiceImpl implements UserDetailsService{

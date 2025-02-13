@@ -1,4 +1,4 @@
-package com.valdir.helpdesk.domain;
+package com.cadu.helpdesk.domain;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,8 +8,8 @@ import javax.persistence.Entity;
 import javax.persistence.OneToMany;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.valdir.helpdesk.domain.dtos.TecnicoDTO;
-import com.valdir.helpdesk.domain.enums.Perfil;
+import com.cadu.helpdesk.domain.dtos.TecnicoDTO;
+import com.cadu.helpdesk.domain.enums.Perfil;
 @Entity
 public class Tecnico extends Pessoa {
 	

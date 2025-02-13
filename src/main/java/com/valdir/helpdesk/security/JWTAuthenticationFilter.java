@@ -1,4 +1,4 @@
-package com.valdir.helpdesk.security;
+package com.cadu.helpdesk.security;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -16,7 +16,7 @@ import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.valdir.helpdesk.domain.dtos.CredenciaisDTO;
+import com.cadu.helpdesk.domain.dtos.CredenciaisDTO;
 
 public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilter {
 

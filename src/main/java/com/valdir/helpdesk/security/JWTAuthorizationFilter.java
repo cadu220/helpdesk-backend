@@ -1,4 +1,4 @@
-package com.valdir.helpdesk.security;
+package com.cadu.helpdesk.security;
 
 import java.io.IOException;
 

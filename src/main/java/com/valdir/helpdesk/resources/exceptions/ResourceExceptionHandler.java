@@ -1,4 +1,4 @@
-package com.valdir.helpdesk.resources.exceptions;
+package com.cadu.helpdesk.resources.exceptions;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -9,9 +9,9 @@ import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import com.valdir.helpdesk.services.exceptions.DataIntegrityViolationException;
-import com.valdir.helpdesk.services.exceptions.ObjectnotFoundException;
-import com.valdir.helpdesk.services.exceptions.ValidationError;
+import com.cadu.helpdesk.services.exceptions.DataIntegrityViolationException;
+import com.cadu.helpdesk.services.exceptions.ObjectnotFoundException;
+import com.cadu.helpdesk.services.exceptions.ValidationError;
 
 @ControllerAdvice
 public class ResourceExceptionHandler {

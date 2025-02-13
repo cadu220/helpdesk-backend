@@ -1,4 +1,4 @@
-package com.valdir.helpdesk.security;
+package com.cadu.helpdesk.security;
 
 import java.util.Collection;
 import java.util.Set;
@@ -8,7 +8,7 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import com.valdir.helpdesk.domain.enums.Perfil;
+import com.cadu.helpdesk.domain.enums.Perfil;
 
 public class UserSS implements UserDetails{
 

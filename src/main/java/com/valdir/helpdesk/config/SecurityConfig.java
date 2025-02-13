@@ -1,4 +1,4 @@
-package com.valdir.helpdesk.config;
+package com.cadu.helpdesk.config;
 
 import java.util.Arrays;
 
@@ -17,9 +17,9 @@ import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
-import com.valdir.helpdesk.security.JWTAuthenticationFilter;
-import com.valdir.helpdesk.security.JWTAuthorizationFilter;
-import com.valdir.helpdesk.security.JWTUtil;
+import com.cadu.helpdesk.security.JWTAuthenticationFilter;
+import com.cadu.helpdesk.security.JWTAuthorizationFilter;
+import com.cadu.helpdesk.security.JWTUtil;
 
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true)

@@ -1,4 +1,4 @@
-package com.valdir.helpdesk.domain.enums;
+package com.cadu.helpdesk.domain.enums;
 
 public enum Prioridade {
 	BAIXA(0, "BAIXA"), MEDIA(1, "MEDIA"), ALTA(2, "ALTA");
