@@ -1,4 +1,4 @@
-package com.valdir.helpdesk.domain;
+package com.cadu.helpdesk.domain;
 
 import java.io.Serializable;
 import java.time.LocalDate;
@@ -19,7 +19,7 @@ import javax.persistence.Id;
 import org.hibernate.validator.constraints.br.CPF;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.valdir.helpdesk.domain.enums.Perfil;
+import com.cadu.helpdesk.domain.enums.Perfil;
 @Entity
 public abstract class Pessoa implements Serializable {
 	

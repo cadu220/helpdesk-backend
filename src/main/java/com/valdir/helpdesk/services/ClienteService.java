@@ -1,4 +1,4 @@
-package com.valdir.helpdesk.services;
+package com.cadu.helpdesk.services;
 
 import java.util.List;
 import java.util.Optional;
@@ -9,13 +9,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.valdir.helpdesk.domain.Cliente;
-import com.valdir.helpdesk.domain.Pessoa;
-import com.valdir.helpdesk.domain.dtos.ClienteDTO;
-import com.valdir.helpdesk.repositories.ClienteRepository;
-import com.valdir.helpdesk.repositories.PessoaRepository;
-import com.valdir.helpdesk.services.exceptions.DataIntegrityViolationException;
-import com.valdir.helpdesk.services.exceptions.ObjectnotFoundException;
+import com.cadu.helpdesk.domain.Cliente;
+import com.cadu.helpdesk.domain.Pessoa;
+import com.cadu.helpdesk.domain.dtos.ClienteDTO;
+import com.cadu.helpdesk.repositories.ClienteRepository;
+import com.cadu.helpdesk.repositories.PessoaRepository;
+import com.cadu.helpdesk.services.exceptions.DataIntegrityViolationException;
+import com.cadu.helpdesk.services.exceptions.ObjectnotFoundException;
 
 @Service
 public class ClienteService {

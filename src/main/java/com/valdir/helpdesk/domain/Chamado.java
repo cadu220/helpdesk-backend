@@ -1,4 +1,4 @@
-package com.valdir.helpdesk.domain;
+package com.cadu.helpdesk.domain;
 
 import java.io.Serializable;
 import java.time.LocalDate;
@@ -12,8 +12,8 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.valdir.helpdesk.domain.enums.Prioridade;
-import com.valdir.helpdesk.domain.enums.Status;
+import com.cadu.helpdesk.domain.enums.Prioridade;
+import com.cadu.helpdesk.domain.enums.Status;
 
 @Entity
 public class Chamado implements Serializable {

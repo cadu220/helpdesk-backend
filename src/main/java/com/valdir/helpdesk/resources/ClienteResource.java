@@ -1,4 +1,4 @@
-package com.valdir.helpdesk.resources;
+package com.cadu.helpdesk.resources;
 
 import java.net.URI;
 import java.util.List;
@@ -18,9 +18,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.valdir.helpdesk.domain.Cliente;
-import com.valdir.helpdesk.domain.dtos.ClienteDTO;
-import com.valdir.helpdesk.services.ClienteService;
+import com.cadu.helpdesk.domain.Cliente;
+import com.cadu.helpdesk.domain.dtos.ClienteDTO;
+import com.cadu.helpdesk.services.ClienteService;
 
 @RestController
 @RequestMapping(value = "/clientes")

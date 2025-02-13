@@ -1,4 +1,4 @@
-package com.valdir.helpdesk.services;
+package com.cadu.helpdesk.services;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -9,14 +9,14 @@ import javax.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.valdir.helpdesk.domain.Chamado;
-import com.valdir.helpdesk.domain.Cliente;
-import com.valdir.helpdesk.domain.Tecnico;
-import com.valdir.helpdesk.domain.dtos.ChamadoDTO;
-import com.valdir.helpdesk.domain.enums.Prioridade;
-import com.valdir.helpdesk.domain.enums.Status;
-import com.valdir.helpdesk.repositories.ChamadoRepository;
-import com.valdir.helpdesk.services.exceptions.ObjectnotFoundException;
+import com.cadu.helpdesk.domain.Chamado;
+import com.cadu.helpdesk.domain.Cliente;
+import com.cadu.helpdesk.domain.Tecnico;
+import com.cadu.helpdesk.domain.dtos.ChamadoDTO;
+import com.cadu.helpdesk.domain.enums.Prioridade;
+import com.cadu.helpdesk.domain.enums.Status;
+import com.cadu.helpdesk.repositories.ChamadoRepository;
+import com.cadu.helpdesk.services.exceptions.ObjectnotFoundException;
 
 @Service
 public class ChamadoService {

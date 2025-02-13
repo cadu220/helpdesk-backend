@@ -1,4 +1,4 @@
-package com.valdir.helpdesk.resources;
+package com.cadu.helpdesk.resources;
 
 import java.net.URI;
 import java.util.List;
@@ -17,9 +17,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.valdir.helpdesk.domain.Chamado;
-import com.valdir.helpdesk.domain.dtos.ChamadoDTO;
-import com.valdir.helpdesk.services.ChamadoService;
+import com.cadu.helpdesk.domain.Chamado;
+import com.cadu.helpdesk.domain.dtos.ChamadoDTO;
+import com.cadu.helpdesk.services.ChamadoService;
 
 @RestController
 @RequestMapping(value="/chamados")

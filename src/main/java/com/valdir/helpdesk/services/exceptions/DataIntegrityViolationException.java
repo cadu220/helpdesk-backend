@@ -1,4 +1,4 @@
-package com.valdir.helpdesk.services.exceptions;
+package com.cadu.helpdesk.services.exceptions;
 
 public class DataIntegrityViolationException extends RuntimeException{
 

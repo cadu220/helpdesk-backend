@@ -1,8 +1,8 @@
-package com.valdir.helpdesk.repositories;
+package com.cadu.helpdesk.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.valdir.helpdesk.domain.Chamado;
+import com.cadu.helpdesk.domain.Chamado;
 
 public interface ChamadoRepository extends JpaRepository<Chamado, Integer> {
 

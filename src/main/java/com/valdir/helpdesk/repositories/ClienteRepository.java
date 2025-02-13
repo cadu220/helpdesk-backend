@@ -1,8 +1,8 @@
-package com.valdir.helpdesk.repositories;
+package com.cadu.helpdesk.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.valdir.helpdesk.domain.Cliente;
+import com.cadu.helpdesk.domain.Cliente;
 
 public interface ClienteRepository extends JpaRepository<Cliente, Integer> {
 

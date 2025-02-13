@@ -1,4 +1,4 @@
-package com.valdir.helpdesk.domain.dtos;
+package com.cadu.helpdesk.domain.dtos;
 
 public class CredenciaisDTO {
 

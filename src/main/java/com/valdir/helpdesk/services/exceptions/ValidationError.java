@@ -1,9 +1,9 @@
-package com.valdir.helpdesk.services.exceptions;
+package com.cadu.helpdesk.services.exceptions;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.valdir.helpdesk.resources.exceptions.StandardError;
+import com.cadu.helpdesk.resources.exceptions.StandardError;
 
 public class ValidationError extends StandardError {
 	private static final long serialVersionUID = 1L;

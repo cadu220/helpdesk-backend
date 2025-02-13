@@ -1,4 +1,4 @@
-package com.valdir.helpdesk.services;
+package com.cadu.helpdesk.services;
 
 import java.util.Arrays;
 
@@ -6,14 +6,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.valdir.helpdesk.domain.Chamado;
-import com.valdir.helpdesk.domain.Cliente;
-import com.valdir.helpdesk.domain.Tecnico;
-import com.valdir.helpdesk.domain.enums.Perfil;
-import com.valdir.helpdesk.domain.enums.Prioridade;
-import com.valdir.helpdesk.domain.enums.Status;
-import com.valdir.helpdesk.repositories.ChamadoRepository;
-import com.valdir.helpdesk.repositories.PessoaRepository;
+import com.cadu.helpdesk.domain.Chamado;
+import com.cadu.helpdesk.domain.Cliente;
+import com.cadu.helpdesk.domain.Tecnico;
+import com.cadu.helpdesk.domain.enums.Perfil;
+import com.cadu.helpdesk.domain.enums.Prioridade;
+import com.cadu.helpdesk.domain.enums.Status;
+import com.cadu.helpdesk.repositories.ChamadoRepository;
+import com.cadu.helpdesk.repositories.PessoaRepository;
 
 @Service
 public class DBService {
@@ -30,7 +30,7 @@ public class DBService {
 	
 	
 	public void instanciaDB() {
-		Tecnico tec1 = new Tecnico(null, "valdir cesar", "08106470016", "valdir@mail.com", encoder.encode("123"));
+		Tecnico tec1 = new Tecnico(null, "cadu cesar", "08106470016", "cadu@mail.com", encoder.encode("123"));
 		tec1.addPerfil(Perfil.ADMIN);
 		Tecnico tec2 = new Tecnico(null, "Richard Stallman", "903.347.070-56", "stallman@mail.com", encoder.encode("123"));
 		Tecnico tec3 = new Tecnico(null, "Claude Elwood Shannon", "271.068.470-54", "shannon@mail.com", encoder.encode("123"));
